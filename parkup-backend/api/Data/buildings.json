@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Central Plaza",
+    "city": "London",
+    "numberOfFloors": 4,
+    "numberOfSpots": 20
+  },
+  {
+    "id": 2,
+    "name": "River Tower",
+    "city": "Manchester",
+    "numberOfFloors": 5,
+    "numberOfSpots": 25
+  },
+  {
+    "id": 3,
+    "name": "Business Square",
+    "city": "Birmingham",
+    "numberOfFloors": 3,
+    "numberOfSpots": 18
+  },
+  {
+    "id": 4,
+    "name": "Innovation Center",
+    "city": "Leeds",
+    "numberOfFloors": 4,
+    "numberOfSpots": 22
+  },
+  {
+    "id": 5,
+    "name": "Tech Park",
+    "city": "Liverpool",
+    "numberOfFloors": 2,
+    "numberOfSpots": 14
+  },
+  {
+    "id": 6,
+    "name": "Skyline Offices",
+    "city": "Bristol",
+    "numberOfFloors": 5,
+    "numberOfSpots": 28
+  },
+  {
+    "id": 7,
+    "name": "North Point",
+    "city": "Sheffield",
+    "numberOfFloors": 3,
+    "numberOfSpots": 16
+  },
+  {
+    "id": 8,
+    "name": "South Gate",
+    "city": "Newcastle",
+    "numberOfFloors": 4,
+    "numberOfSpots": 20
+  },
+  {
+    "id": 9,
+    "name": "West Hub",
+    "city": "Oxford",
+    "numberOfFloors": 3,
+    "numberOfSpots": 18
+  },
+  {
+    "id": 10,
+    "name": "East Center",
+    "city": "Cambridge",
+    "numberOfFloors": 4,
+    "numberOfSpots": 24
+  },
+  {
+    "id": 11,
+    "name": "Liberty Tower",
+    "city": "Glasgow",
+    "numberOfFloors": 6,
+    "numberOfSpots": 30
+  },
+  {
+    "id": 12,
+    "name": "Harbor Plaza",
+    "city": "Cardiff",
+    "numberOfFloors": 3,
+    "numberOfSpots": 18
+  },
+  {
+    "id": 13,
+    "name": "Commerce Point",
+    "city": "Nottingham",
+    "numberOfFloors": 5,
+    "numberOfSpots": 25
+  },
+  {
+    "id": 14,
+    "name": "Oak Business Park",
+    "city": "Southampton",
+    "numberOfFloors": 4,
+    "numberOfSpots": 22
+  },
+  {
+    "id": 15,
+    "name": "Maple Offices",
+    "city": "Reading",
+    "numberOfFloors": 3,
+    "numberOfSpots": 17
+  },
+  {
+    "id": 16,
+    "name": "Pioneer Center",
+    "city": "York",
+    "numberOfFloors": 4,
+    "numberOfSpots": 21
+  },
+  {
+    "id": 17,
+    "name": "Summit Tower",
+    "city": "Leicester",
+    "numberOfFloors": 5,
+    "numberOfSpots": 26
+  },
+  {
+    "id": 18,
+    "name": "Prime Plaza",
+    "city": "Coventry",
+    "numberOfFloors": 4,
+    "numberOfSpots": 20
+  },
+  {
+    "id": 19,
+    "name": "Vertex Offices",
+    "city": "Brighton",
+    "numberOfFloors": 3,
+    "numberOfSpots": 18
+  },
+  {
+    "id": 20,
+    "name": "Elite Business Center",
+    "city": "Edinburgh",
+    "numberOfFloors": 6,
+    "numberOfSpots": 32
+  }
+]
