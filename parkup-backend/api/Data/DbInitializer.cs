@@ -117,16 +117,31 @@ namespace api.Data
                     {
                         PropertyNameCaseInsensitive = true
                     };
-                    var parkingReservations = JsonSerializer.Deserialize<List<ParkingReservation>>(json);
+                    var parkingReservations = JsonSerializer.Deserialize<List<ParkingReservation>>(json, options);
 
                     if (parkingReservations != null && parkingReservations.Count > 0)
                     {
+                        foreach (var parkingReservation in parkingReservations)
+                        {
+                            parkingReservation.StartingDate = DateTime.SpecifyKind(
+                                parkingReservation.StartingDate,
+                                DateTimeKind.Utc);
+                            parkingReservation.EndingDate = DateTime.SpecifyKind(
+                                parkingReservation.EndingDate,
+                                DateTimeKind.Utc);
+                        }
+
                         await context.ParkingReservations.AddRangeAsync(parkingReservations);
                         logger.LogInformation("Parking reservations data saved, total number of parking reservations: " + parkingReservations.Count);
                         SetChangesMadeTrue();
                     } else
                     {
                         logger.LogWarning("Could not save parking reservations in the database");
+                    }
+                    if (changesMade)
+                    {
+                        await context.SaveChangesAsync();
+                        logger.LogInformation("Database seeded");
                     }
                 }
             } catch (Exception ex)

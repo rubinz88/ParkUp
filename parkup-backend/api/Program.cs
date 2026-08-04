@@ -9,6 +9,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IParkingSpotRepository, ParkingSpotRepository>();
+builder.Services.AddScoped<IParkingSpotService, ParkingSpotService>();
+
 var host = builder.Configuration["DB_HOST"];
 var port = builder.Configuration["DB_PORT"];
 var username = builder.Configuration["DB_USER"];
