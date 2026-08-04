@@ -1,0 +1,3474 @@
+[
+  {
+    "id": 1,
+    "parkingSpotName": "P001",
+    "buildingId": 1,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 2,
+    "parkingSpotName": "P002",
+    "buildingId": 1,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 3,
+    "parkingSpotName": "P003",
+    "buildingId": 1,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 4,
+    "parkingSpotName": "P004",
+    "buildingId": 1,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 5,
+    "parkingSpotName": "P005",
+    "buildingId": 1,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 6,
+    "parkingSpotName": "P006",
+    "buildingId": 1,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 7,
+    "parkingSpotName": "P007",
+    "buildingId": 1,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 8,
+    "parkingSpotName": "P008",
+    "buildingId": 1,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 9,
+    "parkingSpotName": "P009",
+    "buildingId": 1,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 10,
+    "parkingSpotName": "P010",
+    "buildingId": 1,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 11,
+    "parkingSpotName": "P011",
+    "buildingId": 1,
+    "floorNumber": 2,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 12,
+    "parkingSpotName": "P012",
+    "buildingId": 1,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 13,
+    "parkingSpotName": "P013",
+    "buildingId": 1,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 14,
+    "parkingSpotName": "P014",
+    "buildingId": 1,
+    "floorNumber": 2,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 15,
+    "parkingSpotName": "P015",
+    "buildingId": 1,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 16,
+    "parkingSpotName": "P016",
+    "buildingId": 1,
+    "floorNumber": 3,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 17,
+    "parkingSpotName": "P017",
+    "buildingId": 1,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 18,
+    "parkingSpotName": "P018",
+    "buildingId": 1,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 19,
+    "parkingSpotName": "P019",
+    "buildingId": 1,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 20,
+    "parkingSpotName": "P020",
+    "buildingId": 1,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 21,
+    "parkingSpotName": "P021",
+    "buildingId": 2,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 22,
+    "parkingSpotName": "P022",
+    "buildingId": 2,
+    "floorNumber": 0,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 23,
+    "parkingSpotName": "P023",
+    "buildingId": 2,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 24,
+    "parkingSpotName": "P024",
+    "buildingId": 2,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 25,
+    "parkingSpotName": "P025",
+    "buildingId": 2,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 26,
+    "parkingSpotName": "P026",
+    "buildingId": 2,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 27,
+    "parkingSpotName": "P027",
+    "buildingId": 2,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 28,
+    "parkingSpotName": "P028",
+    "buildingId": 2,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 29,
+    "parkingSpotName": "P029",
+    "buildingId": 2,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 30,
+    "parkingSpotName": "P030",
+    "buildingId": 2,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 31,
+    "parkingSpotName": "P031",
+    "buildingId": 2,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 32,
+    "parkingSpotName": "P032",
+    "buildingId": 2,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 33,
+    "parkingSpotName": "P033",
+    "buildingId": 2,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 34,
+    "parkingSpotName": "P034",
+    "buildingId": 2,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 35,
+    "parkingSpotName": "P035",
+    "buildingId": 2,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 36,
+    "parkingSpotName": "P036",
+    "buildingId": 2,
+    "floorNumber": 3,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 37,
+    "parkingSpotName": "P037",
+    "buildingId": 2,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 38,
+    "parkingSpotName": "P038",
+    "buildingId": 2,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 39,
+    "parkingSpotName": "P039",
+    "buildingId": 2,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 40,
+    "parkingSpotName": "P040",
+    "buildingId": 2,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 41,
+    "parkingSpotName": "P041",
+    "buildingId": 2,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 42,
+    "parkingSpotName": "P042",
+    "buildingId": 2,
+    "floorNumber": 4,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 43,
+    "parkingSpotName": "P043",
+    "buildingId": 2,
+    "floorNumber": 4,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 44,
+    "parkingSpotName": "P044",
+    "buildingId": 2,
+    "floorNumber": 4,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 45,
+    "parkingSpotName": "P045",
+    "buildingId": 2,
+    "floorNumber": 4,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 46,
+    "parkingSpotName": "P046",
+    "buildingId": 3,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 47,
+    "parkingSpotName": "P047",
+    "buildingId": 3,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 48,
+    "parkingSpotName": "P048",
+    "buildingId": 3,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 49,
+    "parkingSpotName": "P049",
+    "buildingId": 3,
+    "floorNumber": 0,
+    "price": 25,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 50,
+    "parkingSpotName": "P050",
+    "buildingId": 3,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 51,
+    "parkingSpotName": "P051",
+    "buildingId": 3,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 52,
+    "parkingSpotName": "P052",
+    "buildingId": 3,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 53,
+    "parkingSpotName": "P053",
+    "buildingId": 3,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 54,
+    "parkingSpotName": "P054",
+    "buildingId": 3,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 55,
+    "parkingSpotName": "P055",
+    "buildingId": 3,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 56,
+    "parkingSpotName": "P056",
+    "buildingId": 3,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 57,
+    "parkingSpotName": "P057",
+    "buildingId": 3,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 58,
+    "parkingSpotName": "P058",
+    "buildingId": 3,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 59,
+    "parkingSpotName": "P059",
+    "buildingId": 3,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 60,
+    "parkingSpotName": "P060",
+    "buildingId": 3,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 61,
+    "parkingSpotName": "P061",
+    "buildingId": 3,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 62,
+    "parkingSpotName": "P062",
+    "buildingId": 3,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 63,
+    "parkingSpotName": "P063",
+    "buildingId": 3,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 64,
+    "parkingSpotName": "P064",
+    "buildingId": 4,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 65,
+    "parkingSpotName": "P065",
+    "buildingId": 4,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 66,
+    "parkingSpotName": "P066",
+    "buildingId": 4,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 67,
+    "parkingSpotName": "P067",
+    "buildingId": 4,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 68,
+    "parkingSpotName": "P068",
+    "buildingId": 4,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 69,
+    "parkingSpotName": "P069",
+    "buildingId": 4,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 70,
+    "parkingSpotName": "P070",
+    "buildingId": 4,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 71,
+    "parkingSpotName": "P071",
+    "buildingId": 4,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 72,
+    "parkingSpotName": "P072",
+    "buildingId": 4,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 73,
+    "parkingSpotName": "P073",
+    "buildingId": 4,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 74,
+    "parkingSpotName": "P074",
+    "buildingId": 4,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 75,
+    "parkingSpotName": "P075",
+    "buildingId": 4,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 76,
+    "parkingSpotName": "P076",
+    "buildingId": 4,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 77,
+    "parkingSpotName": "P077",
+    "buildingId": 4,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 78,
+    "parkingSpotName": "P078",
+    "buildingId": 4,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 79,
+    "parkingSpotName": "P079",
+    "buildingId": 4,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 80,
+    "parkingSpotName": "P080",
+    "buildingId": 4,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 81,
+    "parkingSpotName": "P081",
+    "buildingId": 4,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 82,
+    "parkingSpotName": "P082",
+    "buildingId": 4,
+    "floorNumber": 3,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 83,
+    "parkingSpotName": "P083",
+    "buildingId": 4,
+    "floorNumber": 3,
+    "price": 18,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 84,
+    "parkingSpotName": "P084",
+    "buildingId": 4,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 85,
+    "parkingSpotName": "P085",
+    "buildingId": 4,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 86,
+    "parkingSpotName": "P086",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 87,
+    "parkingSpotName": "P087",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 88,
+    "parkingSpotName": "P088",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 89,
+    "parkingSpotName": "P089",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 90,
+    "parkingSpotName": "P090",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 91,
+    "parkingSpotName": "P091",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 92,
+    "parkingSpotName": "P092",
+    "buildingId": 5,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 93,
+    "parkingSpotName": "P093",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 94,
+    "parkingSpotName": "P094",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 95,
+    "parkingSpotName": "P095",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 96,
+    "parkingSpotName": "P096",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 97,
+    "parkingSpotName": "P097",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 98,
+    "parkingSpotName": "P098",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 99,
+    "parkingSpotName": "P099",
+    "buildingId": 5,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 100,
+    "parkingSpotName": "P100",
+    "buildingId": 6,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 101,
+    "parkingSpotName": "P101",
+    "buildingId": 6,
+    "floorNumber": 0,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 102,
+    "parkingSpotName": "P102",
+    "buildingId": 6,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 103,
+    "parkingSpotName": "P103",
+    "buildingId": 6,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 104,
+    "parkingSpotName": "P104",
+    "buildingId": 6,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 105,
+    "parkingSpotName": "P105",
+    "buildingId": 6,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 106,
+    "parkingSpotName": "P106",
+    "buildingId": 6,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 107,
+    "parkingSpotName": "P107",
+    "buildingId": 6,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 108,
+    "parkingSpotName": "P108",
+    "buildingId": 6,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 109,
+    "parkingSpotName": "P109",
+    "buildingId": 6,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 110,
+    "parkingSpotName": "P110",
+    "buildingId": 6,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 111,
+    "parkingSpotName": "P111",
+    "buildingId": 6,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 112,
+    "parkingSpotName": "P112",
+    "buildingId": 6,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 113,
+    "parkingSpotName": "P113",
+    "buildingId": 6,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 114,
+    "parkingSpotName": "P114",
+    "buildingId": 6,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 115,
+    "parkingSpotName": "P115",
+    "buildingId": 6,
+    "floorNumber": 2,
+    "price": 18,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 116,
+    "parkingSpotName": "P116",
+    "buildingId": 6,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 117,
+    "parkingSpotName": "P117",
+    "buildingId": 6,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 118,
+    "parkingSpotName": "P118",
+    "buildingId": 6,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 119,
+    "parkingSpotName": "P119",
+    "buildingId": 6,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 120,
+    "parkingSpotName": "P120",
+    "buildingId": 6,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 121,
+    "parkingSpotName": "P121",
+    "buildingId": 6,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 122,
+    "parkingSpotName": "P122",
+    "buildingId": 6,
+    "floorNumber": 3,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 123,
+    "parkingSpotName": "P123",
+    "buildingId": 6,
+    "floorNumber": 3,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 124,
+    "parkingSpotName": "P124",
+    "buildingId": 6,
+    "floorNumber": 4,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 125,
+    "parkingSpotName": "P125",
+    "buildingId": 6,
+    "floorNumber": 4,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 126,
+    "parkingSpotName": "P126",
+    "buildingId": 6,
+    "floorNumber": 4,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 127,
+    "parkingSpotName": "P127",
+    "buildingId": 6,
+    "floorNumber": 4,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 128,
+    "parkingSpotName": "P128",
+    "buildingId": 7,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 129,
+    "parkingSpotName": "P129",
+    "buildingId": 7,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 130,
+    "parkingSpotName": "P130",
+    "buildingId": 7,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 131,
+    "parkingSpotName": "P131",
+    "buildingId": 7,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 132,
+    "parkingSpotName": "P132",
+    "buildingId": 7,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 133,
+    "parkingSpotName": "P133",
+    "buildingId": 7,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 134,
+    "parkingSpotName": "P134",
+    "buildingId": 7,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 135,
+    "parkingSpotName": "P135",
+    "buildingId": 7,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 136,
+    "parkingSpotName": "P136",
+    "buildingId": 7,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 137,
+    "parkingSpotName": "P137",
+    "buildingId": 7,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 138,
+    "parkingSpotName": "P138",
+    "buildingId": 7,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 139,
+    "parkingSpotName": "P139",
+    "buildingId": 7,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 140,
+    "parkingSpotName": "P140",
+    "buildingId": 7,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 141,
+    "parkingSpotName": "P141",
+    "buildingId": 7,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 142,
+    "parkingSpotName": "P142",
+    "buildingId": 7,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 143,
+    "parkingSpotName": "P143",
+    "buildingId": 7,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 144,
+    "parkingSpotName": "P144",
+    "buildingId": 8,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 145,
+    "parkingSpotName": "P145",
+    "buildingId": 8,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 146,
+    "parkingSpotName": "P146",
+    "buildingId": 8,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 147,
+    "parkingSpotName": "P147",
+    "buildingId": 8,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 148,
+    "parkingSpotName": "P148",
+    "buildingId": 8,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 149,
+    "parkingSpotName": "P149",
+    "buildingId": 8,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 150,
+    "parkingSpotName": "P150",
+    "buildingId": 8,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 151,
+    "parkingSpotName": "P151",
+    "buildingId": 8,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 152,
+    "parkingSpotName": "P152",
+    "buildingId": 8,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 153,
+    "parkingSpotName": "P153",
+    "buildingId": 8,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 154,
+    "parkingSpotName": "P154",
+    "buildingId": 8,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 155,
+    "parkingSpotName": "P155",
+    "buildingId": 8,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 156,
+    "parkingSpotName": "P156",
+    "buildingId": 8,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 157,
+    "parkingSpotName": "P157",
+    "buildingId": 8,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 158,
+    "parkingSpotName": "P158",
+    "buildingId": 8,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 159,
+    "parkingSpotName": "P159",
+    "buildingId": 8,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 160,
+    "parkingSpotName": "P160",
+    "buildingId": 8,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 161,
+    "parkingSpotName": "P161",
+    "buildingId": 8,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 162,
+    "parkingSpotName": "P162",
+    "buildingId": 8,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 163,
+    "parkingSpotName": "P163",
+    "buildingId": 8,
+    "floorNumber": 3,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 164,
+    "parkingSpotName": "P164",
+    "buildingId": 9,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 165,
+    "parkingSpotName": "P165",
+    "buildingId": 9,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 166,
+    "parkingSpotName": "P166",
+    "buildingId": 9,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 167,
+    "parkingSpotName": "P167",
+    "buildingId": 9,
+    "floorNumber": 0,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 168,
+    "parkingSpotName": "P168",
+    "buildingId": 9,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 169,
+    "parkingSpotName": "P169",
+    "buildingId": 9,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 170,
+    "parkingSpotName": "P170",
+    "buildingId": 9,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 171,
+    "parkingSpotName": "P171",
+    "buildingId": 9,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 172,
+    "parkingSpotName": "P172",
+    "buildingId": 9,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 173,
+    "parkingSpotName": "P173",
+    "buildingId": 9,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 174,
+    "parkingSpotName": "P174",
+    "buildingId": 9,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 175,
+    "parkingSpotName": "P175",
+    "buildingId": 9,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 176,
+    "parkingSpotName": "P176",
+    "buildingId": 9,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 177,
+    "parkingSpotName": "P177",
+    "buildingId": 9,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 178,
+    "parkingSpotName": "P178",
+    "buildingId": 9,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 179,
+    "parkingSpotName": "P179",
+    "buildingId": 9,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 180,
+    "parkingSpotName": "P180",
+    "buildingId": 9,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 181,
+    "parkingSpotName": "P181",
+    "buildingId": 9,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 182,
+    "parkingSpotName": "P182",
+    "buildingId": 10,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 183,
+    "parkingSpotName": "P183",
+    "buildingId": 10,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 184,
+    "parkingSpotName": "P184",
+    "buildingId": 10,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 185,
+    "parkingSpotName": "P185",
+    "buildingId": 10,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 186,
+    "parkingSpotName": "P186",
+    "buildingId": 10,
+    "floorNumber": 0,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 187,
+    "parkingSpotName": "P187",
+    "buildingId": 10,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 188,
+    "parkingSpotName": "P188",
+    "buildingId": 10,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 189,
+    "parkingSpotName": "P189",
+    "buildingId": 10,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 190,
+    "parkingSpotName": "P190",
+    "buildingId": 10,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 191,
+    "parkingSpotName": "P191",
+    "buildingId": 10,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 192,
+    "parkingSpotName": "P192",
+    "buildingId": 10,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 193,
+    "parkingSpotName": "P193",
+    "buildingId": 10,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 194,
+    "parkingSpotName": "P194",
+    "buildingId": 10,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 195,
+    "parkingSpotName": "P195",
+    "buildingId": 10,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 196,
+    "parkingSpotName": "P196",
+    "buildingId": 10,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 197,
+    "parkingSpotName": "P197",
+    "buildingId": 10,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 198,
+    "parkingSpotName": "P198",
+    "buildingId": 10,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 199,
+    "parkingSpotName": "P199",
+    "buildingId": 10,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 200,
+    "parkingSpotName": "P200",
+    "buildingId": 10,
+    "floorNumber": 3,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 201,
+    "parkingSpotName": "P201",
+    "buildingId": 10,
+    "floorNumber": 3,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 202,
+    "parkingSpotName": "P202",
+    "buildingId": 10,
+    "floorNumber": 3,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 203,
+    "parkingSpotName": "P203",
+    "buildingId": 10,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 204,
+    "parkingSpotName": "P204",
+    "buildingId": 10,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 205,
+    "parkingSpotName": "P205",
+    "buildingId": 10,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 206,
+    "parkingSpotName": "P206",
+    "buildingId": 11,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 207,
+    "parkingSpotName": "P207",
+    "buildingId": 11,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 208,
+    "parkingSpotName": "P208",
+    "buildingId": 11,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 209,
+    "parkingSpotName": "P209",
+    "buildingId": 11,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 210,
+    "parkingSpotName": "P210",
+    "buildingId": 11,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 211,
+    "parkingSpotName": "P211",
+    "buildingId": 11,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 212,
+    "parkingSpotName": "P212",
+    "buildingId": 11,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 213,
+    "parkingSpotName": "P213",
+    "buildingId": 11,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 214,
+    "parkingSpotName": "P214",
+    "buildingId": 11,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 215,
+    "parkingSpotName": "P215",
+    "buildingId": 11,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 216,
+    "parkingSpotName": "P216",
+    "buildingId": 11,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 217,
+    "parkingSpotName": "P217",
+    "buildingId": 11,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 218,
+    "parkingSpotName": "P218",
+    "buildingId": 11,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 219,
+    "parkingSpotName": "P219",
+    "buildingId": 11,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 220,
+    "parkingSpotName": "P220",
+    "buildingId": 11,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 221,
+    "parkingSpotName": "P221",
+    "buildingId": 11,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 222,
+    "parkingSpotName": "P222",
+    "buildingId": 11,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 223,
+    "parkingSpotName": "P223",
+    "buildingId": 11,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 224,
+    "parkingSpotName": "P224",
+    "buildingId": 11,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 225,
+    "parkingSpotName": "P225",
+    "buildingId": 11,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 226,
+    "parkingSpotName": "P226",
+    "buildingId": 11,
+    "floorNumber": 4,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 227,
+    "parkingSpotName": "P227",
+    "buildingId": 11,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 228,
+    "parkingSpotName": "P228",
+    "buildingId": 11,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 229,
+    "parkingSpotName": "P229",
+    "buildingId": 11,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 230,
+    "parkingSpotName": "P230",
+    "buildingId": 11,
+    "floorNumber": 4,
+    "price": 20,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 231,
+    "parkingSpotName": "P231",
+    "buildingId": 11,
+    "floorNumber": 5,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 232,
+    "parkingSpotName": "P232",
+    "buildingId": 11,
+    "floorNumber": 5,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 233,
+    "parkingSpotName": "P233",
+    "buildingId": 11,
+    "floorNumber": 5,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 234,
+    "parkingSpotName": "P234",
+    "buildingId": 11,
+    "floorNumber": 5,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 235,
+    "parkingSpotName": "P235",
+    "buildingId": 11,
+    "floorNumber": 5,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 236,
+    "parkingSpotName": "P236",
+    "buildingId": 12,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 237,
+    "parkingSpotName": "P237",
+    "buildingId": 12,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 238,
+    "parkingSpotName": "P238",
+    "buildingId": 12,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 239,
+    "parkingSpotName": "P239",
+    "buildingId": 12,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 240,
+    "parkingSpotName": "P240",
+    "buildingId": 12,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 241,
+    "parkingSpotName": "P241",
+    "buildingId": 12,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 242,
+    "parkingSpotName": "P242",
+    "buildingId": 12,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 243,
+    "parkingSpotName": "P243",
+    "buildingId": 12,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 244,
+    "parkingSpotName": "P244",
+    "buildingId": 12,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 245,
+    "parkingSpotName": "P245",
+    "buildingId": 12,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 246,
+    "parkingSpotName": "P246",
+    "buildingId": 12,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 247,
+    "parkingSpotName": "P247",
+    "buildingId": 12,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 248,
+    "parkingSpotName": "P248",
+    "buildingId": 12,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 249,
+    "parkingSpotName": "P249",
+    "buildingId": 12,
+    "floorNumber": 2,
+    "price": 18,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 250,
+    "parkingSpotName": "P250",
+    "buildingId": 12,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 251,
+    "parkingSpotName": "P251",
+    "buildingId": 12,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 252,
+    "parkingSpotName": "P252",
+    "buildingId": 12,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 253,
+    "parkingSpotName": "P253",
+    "buildingId": 12,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 254,
+    "parkingSpotName": "P254",
+    "buildingId": 13,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 255,
+    "parkingSpotName": "P255",
+    "buildingId": 13,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 256,
+    "parkingSpotName": "P256",
+    "buildingId": 13,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 257,
+    "parkingSpotName": "P257",
+    "buildingId": 13,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 258,
+    "parkingSpotName": "P258",
+    "buildingId": 13,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 259,
+    "parkingSpotName": "P259",
+    "buildingId": 13,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 260,
+    "parkingSpotName": "P260",
+    "buildingId": 13,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 261,
+    "parkingSpotName": "P261",
+    "buildingId": 13,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 262,
+    "parkingSpotName": "P262",
+    "buildingId": 13,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 263,
+    "parkingSpotName": "P263",
+    "buildingId": 13,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 264,
+    "parkingSpotName": "P264",
+    "buildingId": 13,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 265,
+    "parkingSpotName": "P265",
+    "buildingId": 13,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 266,
+    "parkingSpotName": "P266",
+    "buildingId": 13,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 267,
+    "parkingSpotName": "P267",
+    "buildingId": 13,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 268,
+    "parkingSpotName": "P268",
+    "buildingId": 13,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 269,
+    "parkingSpotName": "P269",
+    "buildingId": 13,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 270,
+    "parkingSpotName": "P270",
+    "buildingId": 13,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 271,
+    "parkingSpotName": "P271",
+    "buildingId": 13,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 272,
+    "parkingSpotName": "P272",
+    "buildingId": 13,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 273,
+    "parkingSpotName": "P273",
+    "buildingId": 13,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 274,
+    "parkingSpotName": "P274",
+    "buildingId": 13,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 275,
+    "parkingSpotName": "P275",
+    "buildingId": 13,
+    "floorNumber": 4,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 276,
+    "parkingSpotName": "P276",
+    "buildingId": 13,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 277,
+    "parkingSpotName": "P277",
+    "buildingId": 13,
+    "floorNumber": 4,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 278,
+    "parkingSpotName": "P278",
+    "buildingId": 13,
+    "floorNumber": 4,
+    "price": 22,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 279,
+    "parkingSpotName": "P279",
+    "buildingId": 14,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 280,
+    "parkingSpotName": "P280",
+    "buildingId": 14,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 281,
+    "parkingSpotName": "P281",
+    "buildingId": 14,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 282,
+    "parkingSpotName": "P282",
+    "buildingId": 14,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 283,
+    "parkingSpotName": "P283",
+    "buildingId": 14,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 284,
+    "parkingSpotName": "P284",
+    "buildingId": 14,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 285,
+    "parkingSpotName": "P285",
+    "buildingId": 14,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 286,
+    "parkingSpotName": "P286",
+    "buildingId": 14,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 287,
+    "parkingSpotName": "P287",
+    "buildingId": 14,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 288,
+    "parkingSpotName": "P288",
+    "buildingId": 14,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 289,
+    "parkingSpotName": "P289",
+    "buildingId": 14,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 290,
+    "parkingSpotName": "P290",
+    "buildingId": 14,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 291,
+    "parkingSpotName": "P291",
+    "buildingId": 14,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 292,
+    "parkingSpotName": "P292",
+    "buildingId": 14,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 293,
+    "parkingSpotName": "P293",
+    "buildingId": 14,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 294,
+    "parkingSpotName": "P294",
+    "buildingId": 14,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 295,
+    "parkingSpotName": "P295",
+    "buildingId": 14,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 296,
+    "parkingSpotName": "P296",
+    "buildingId": 14,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 297,
+    "parkingSpotName": "P297",
+    "buildingId": 14,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 298,
+    "parkingSpotName": "P298",
+    "buildingId": 14,
+    "floorNumber": 3,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 299,
+    "parkingSpotName": "P299",
+    "buildingId": 14,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 300,
+    "parkingSpotName": "P300",
+    "buildingId": 14,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 301,
+    "parkingSpotName": "P301",
+    "buildingId": 15,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 302,
+    "parkingSpotName": "P302",
+    "buildingId": 15,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 303,
+    "parkingSpotName": "P303",
+    "buildingId": 15,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 304,
+    "parkingSpotName": "P304",
+    "buildingId": 15,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 305,
+    "parkingSpotName": "P305",
+    "buildingId": 15,
+    "floorNumber": 0,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 306,
+    "parkingSpotName": "P306",
+    "buildingId": 15,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 307,
+    "parkingSpotName": "P307",
+    "buildingId": 15,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 308,
+    "parkingSpotName": "P308",
+    "buildingId": 15,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 309,
+    "parkingSpotName": "P309",
+    "buildingId": 15,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 310,
+    "parkingSpotName": "P310",
+    "buildingId": 15,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 311,
+    "parkingSpotName": "P311",
+    "buildingId": 15,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 312,
+    "parkingSpotName": "P312",
+    "buildingId": 15,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 313,
+    "parkingSpotName": "P313",
+    "buildingId": 15,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 314,
+    "parkingSpotName": "P314",
+    "buildingId": 15,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 315,
+    "parkingSpotName": "P315",
+    "buildingId": 15,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 316,
+    "parkingSpotName": "P316",
+    "buildingId": 15,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 317,
+    "parkingSpotName": "P317",
+    "buildingId": 15,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 318,
+    "parkingSpotName": "P318",
+    "buildingId": 16,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 319,
+    "parkingSpotName": "P319",
+    "buildingId": 16,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 320,
+    "parkingSpotName": "P320",
+    "buildingId": 16,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 321,
+    "parkingSpotName": "P321",
+    "buildingId": 16,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 322,
+    "parkingSpotName": "P322",
+    "buildingId": 16,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 323,
+    "parkingSpotName": "P323",
+    "buildingId": 16,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 324,
+    "parkingSpotName": "P324",
+    "buildingId": 16,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 325,
+    "parkingSpotName": "P325",
+    "buildingId": 16,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 326,
+    "parkingSpotName": "P326",
+    "buildingId": 16,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 327,
+    "parkingSpotName": "P327",
+    "buildingId": 16,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 328,
+    "parkingSpotName": "P328",
+    "buildingId": 16,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 329,
+    "parkingSpotName": "P329",
+    "buildingId": 16,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 330,
+    "parkingSpotName": "P330",
+    "buildingId": 16,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 331,
+    "parkingSpotName": "P331",
+    "buildingId": 16,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 332,
+    "parkingSpotName": "P332",
+    "buildingId": 16,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 333,
+    "parkingSpotName": "P333",
+    "buildingId": 16,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 334,
+    "parkingSpotName": "P334",
+    "buildingId": 16,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 335,
+    "parkingSpotName": "P335",
+    "buildingId": 16,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 336,
+    "parkingSpotName": "P336",
+    "buildingId": 16,
+    "floorNumber": 3,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 337,
+    "parkingSpotName": "P337",
+    "buildingId": 16,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 338,
+    "parkingSpotName": "P338",
+    "buildingId": 16,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 339,
+    "parkingSpotName": "P339",
+    "buildingId": 17,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 340,
+    "parkingSpotName": "P340",
+    "buildingId": 17,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 341,
+    "parkingSpotName": "P341",
+    "buildingId": 17,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 342,
+    "parkingSpotName": "P342",
+    "buildingId": 17,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 343,
+    "parkingSpotName": "P343",
+    "buildingId": 17,
+    "floorNumber": 0,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 344,
+    "parkingSpotName": "P344",
+    "buildingId": 17,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 345,
+    "parkingSpotName": "P345",
+    "buildingId": 17,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 346,
+    "parkingSpotName": "P346",
+    "buildingId": 17,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 347,
+    "parkingSpotName": "P347",
+    "buildingId": 17,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 348,
+    "parkingSpotName": "P348",
+    "buildingId": 17,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 349,
+    "parkingSpotName": "P349",
+    "buildingId": 17,
+    "floorNumber": 1,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 350,
+    "parkingSpotName": "P350",
+    "buildingId": 17,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 351,
+    "parkingSpotName": "P351",
+    "buildingId": 17,
+    "floorNumber": 2,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 352,
+    "parkingSpotName": "P352",
+    "buildingId": 17,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 353,
+    "parkingSpotName": "P353",
+    "buildingId": 17,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 354,
+    "parkingSpotName": "P354",
+    "buildingId": 17,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 355,
+    "parkingSpotName": "P355",
+    "buildingId": 17,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 356,
+    "parkingSpotName": "P356",
+    "buildingId": 17,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 357,
+    "parkingSpotName": "P357",
+    "buildingId": 17,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 358,
+    "parkingSpotName": "P358",
+    "buildingId": 17,
+    "floorNumber": 3,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 359,
+    "parkingSpotName": "P359",
+    "buildingId": 17,
+    "floorNumber": 3,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 360,
+    "parkingSpotName": "P360",
+    "buildingId": 17,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 361,
+    "parkingSpotName": "P361",
+    "buildingId": 17,
+    "floorNumber": 3,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 362,
+    "parkingSpotName": "P362",
+    "buildingId": 17,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 363,
+    "parkingSpotName": "P363",
+    "buildingId": 17,
+    "floorNumber": 4,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 364,
+    "parkingSpotName": "P364",
+    "buildingId": 17,
+    "floorNumber": 4,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 365,
+    "parkingSpotName": "P365",
+    "buildingId": 18,
+    "floorNumber": 0,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 366,
+    "parkingSpotName": "P366",
+    "buildingId": 18,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 367,
+    "parkingSpotName": "P367",
+    "buildingId": 18,
+    "floorNumber": 0,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 368,
+    "parkingSpotName": "P368",
+    "buildingId": 18,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 369,
+    "parkingSpotName": "P369",
+    "buildingId": 18,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 370,
+    "parkingSpotName": "P370",
+    "buildingId": 18,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 371,
+    "parkingSpotName": "P371",
+    "buildingId": 18,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 372,
+    "parkingSpotName": "P372",
+    "buildingId": 18,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 373,
+    "parkingSpotName": "P373",
+    "buildingId": 18,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 374,
+    "parkingSpotName": "P374",
+    "buildingId": 18,
+    "floorNumber": 1,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 375,
+    "parkingSpotName": "P375",
+    "buildingId": 18,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 376,
+    "parkingSpotName": "P376",
+    "buildingId": 18,
+    "floorNumber": 2,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 377,
+    "parkingSpotName": "P377",
+    "buildingId": 18,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 378,
+    "parkingSpotName": "P378",
+    "buildingId": 18,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 379,
+    "parkingSpotName": "P379",
+    "buildingId": 18,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 380,
+    "parkingSpotName": "P380",
+    "buildingId": 18,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 381,
+    "parkingSpotName": "P381",
+    "buildingId": 18,
+    "floorNumber": 3,
+    "price": 25,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 382,
+    "parkingSpotName": "P382",
+    "buildingId": 18,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 383,
+    "parkingSpotName": "P383",
+    "buildingId": 18,
+    "floorNumber": 3,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 384,
+    "parkingSpotName": "P384",
+    "buildingId": 18,
+    "floorNumber": 3,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 385,
+    "parkingSpotName": "P385",
+    "buildingId": 19,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 386,
+    "parkingSpotName": "P386",
+    "buildingId": 19,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 387,
+    "parkingSpotName": "P387",
+    "buildingId": 19,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 388,
+    "parkingSpotName": "P388",
+    "buildingId": 19,
+    "floorNumber": 0,
+    "price": 22,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 389,
+    "parkingSpotName": "P389",
+    "buildingId": 19,
+    "floorNumber": 0,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 390,
+    "parkingSpotName": "P390",
+    "buildingId": 19,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 391,
+    "parkingSpotName": "P391",
+    "buildingId": 19,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 392,
+    "parkingSpotName": "P392",
+    "buildingId": 19,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 393,
+    "parkingSpotName": "P393",
+    "buildingId": 19,
+    "floorNumber": 1,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 394,
+    "parkingSpotName": "P394",
+    "buildingId": 19,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 395,
+    "parkingSpotName": "P395",
+    "buildingId": 19,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 396,
+    "parkingSpotName": "P396",
+    "buildingId": 19,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 397,
+    "parkingSpotName": "P397",
+    "buildingId": 19,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 398,
+    "parkingSpotName": "P398",
+    "buildingId": 19,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 399,
+    "parkingSpotName": "P399",
+    "buildingId": 19,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 400,
+    "parkingSpotName": "P400",
+    "buildingId": 19,
+    "floorNumber": 2,
+    "price": 10,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 401,
+    "parkingSpotName": "P401",
+    "buildingId": 19,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 402,
+    "parkingSpotName": "P402",
+    "buildingId": 19,
+    "floorNumber": 2,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 403,
+    "parkingSpotName": "P403",
+    "buildingId": 20,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 404,
+    "parkingSpotName": "P404",
+    "buildingId": 20,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 405,
+    "parkingSpotName": "P405",
+    "buildingId": 20,
+    "floorNumber": 0,
+    "price": 10,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 406,
+    "parkingSpotName": "P406",
+    "buildingId": 20,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 407,
+    "parkingSpotName": "P407",
+    "buildingId": 20,
+    "floorNumber": 0,
+    "price": 12,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 408,
+    "parkingSpotName": "P408",
+    "buildingId": 20,
+    "floorNumber": 0,
+    "price": 15,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 409,
+    "parkingSpotName": "P409",
+    "buildingId": 20,
+    "floorNumber": 1,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 410,
+    "parkingSpotName": "P410",
+    "buildingId": 20,
+    "floorNumber": 1,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 411,
+    "parkingSpotName": "P411",
+    "buildingId": 20,
+    "floorNumber": 1,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 412,
+    "parkingSpotName": "P412",
+    "buildingId": 20,
+    "floorNumber": 1,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 413,
+    "parkingSpotName": "P413",
+    "buildingId": 20,
+    "floorNumber": 1,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 414,
+    "parkingSpotName": "P414",
+    "buildingId": 20,
+    "floorNumber": 1,
+    "price": 10,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 415,
+    "parkingSpotName": "P415",
+    "buildingId": 20,
+    "floorNumber": 2,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 416,
+    "parkingSpotName": "P416",
+    "buildingId": 20,
+    "floorNumber": 2,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 417,
+    "parkingSpotName": "P417",
+    "buildingId": 20,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 418,
+    "parkingSpotName": "P418",
+    "buildingId": 20,
+    "floorNumber": 2,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 419,
+    "parkingSpotName": "P419",
+    "buildingId": 20,
+    "floorNumber": 2,
+    "price": 30,
+    "eligibilityTypeId": 2
+  },
+  {
+    "id": 420,
+    "parkingSpotName": "P420",
+    "buildingId": 20,
+    "floorNumber": 2,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 421,
+    "parkingSpotName": "P421",
+    "buildingId": 20,
+    "floorNumber": 3,
+    "price": 20,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 422,
+    "parkingSpotName": "P422",
+    "buildingId": 20,
+    "floorNumber": 3,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 423,
+    "parkingSpotName": "P423",
+    "buildingId": 20,
+    "floorNumber": 3,
+    "price": 22,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 424,
+    "parkingSpotName": "P424",
+    "buildingId": 20,
+    "floorNumber": 3,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 425,
+    "parkingSpotName": "P425",
+    "buildingId": 20,
+    "floorNumber": 3,
+    "price": 18,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 426,
+    "parkingSpotName": "P426",
+    "buildingId": 20,
+    "floorNumber": 3,
+    "price": 12,
+    "eligibilityTypeId": 3
+  },
+  {
+    "id": 427,
+    "parkingSpotName": "P427",
+    "buildingId": 20,
+    "floorNumber": 4,
+    "price": 22,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 428,
+    "parkingSpotName": "P428",
+    "buildingId": 20,
+    "floorNumber": 4,
+    "price": 30,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 429,
+    "parkingSpotName": "P429",
+    "buildingId": 20,
+    "floorNumber": 4,
+    "price": 15,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 430,
+    "parkingSpotName": "P430",
+    "buildingId": 20,
+    "floorNumber": 4,
+    "price": 18,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 431,
+    "parkingSpotName": "P431",
+    "buildingId": 20,
+    "floorNumber": 4,
+    "price": 12,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 432,
+    "parkingSpotName": "P432",
+    "buildingId": 20,
+    "floorNumber": 4,
+    "price": 25,
+    "eligibilityTypeId": 1
+  },
+  {
+    "id": 433,
+    "parkingSpotName": "P433",
+    "buildingId": 20,
+    "floorNumber": 5,
+    "price": 28,
+    "eligibilityTypeId": null
+  },
+  {
+    "id": 434,
+    "parkingSpotName": "P434",
+    "buildingId": 20,
+    "floorNumber": 5,
+    "price": 30,
+    "eligibilityTypeId": null
+  }
+]
