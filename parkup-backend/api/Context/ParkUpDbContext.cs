@@ -31,6 +31,12 @@ namespace api.Context
                 .HasForeignKey(r => r.RequesterId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<ParkingReservation>()
+                .HasOne(r => r.Status)
+                .WithMany(status => status.ParkingReservations)
+                .HasForeignKey(r => r.StatusId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<Requester>()
                 .HasIndex(r => r.Email)
                 .IsUnique();
