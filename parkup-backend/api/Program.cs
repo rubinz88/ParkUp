@@ -1,11 +1,41 @@
 using api.Context;
 using api.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var environment = builder.Environment;
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+var host = builder.Configuration["DB_HOST"];
+var port = builder.Configuration["DB_PORT"];
+var username = builder.Configuration["DB_USER"];
+var password = builder.Configuration["DB_PASSWORD"];
+var dbName = builder.Configuration["DB_NAME"];
+
+if (string.IsNullOrWhiteSpace(host) ||
+    string.IsNullOrWhiteSpace(port) ||
+    string.IsNullOrWhiteSpace(username) ||
+    string.IsNullOrWhiteSpace(password) ||
+    string.IsNullOrWhiteSpace(dbName))
+{
+    throw new InvalidOperationException("Database configuration is missing");
+}
+
+var connectionStringBuilder = new Npgsql.NpgsqlConnectionStringBuilder
+{
+    Host = host,
+    Port = int.Parse(port),
+    Username = username,
+    Password = password,
+    Database = dbName,
+    IncludeErrorDetail = environment.IsDevelopment()
+};
+
+builder.Services.AddDbContext<ParkUpDbContext>(options =>
+    options.UseNpgsql(connectionStringBuilder.ConnectionString));
 
 var app = builder.Build();
 

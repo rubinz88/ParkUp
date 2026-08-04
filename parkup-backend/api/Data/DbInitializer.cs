@@ -1,3 +1,4 @@
+using System.Text.Json;
 using api.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,7 +25,11 @@ namespace api.Data
                 {
                     var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "buildings.json");
                     var json = await File.ReadAllTextAsync(jsonPath);
-                    var buildings = System.Text.Json.JsonSerializer.Deserialize<List<Building>>(json);
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+                    var buildings = JsonSerializer.Deserialize<List<Building>>(json, options);
                     
                     if (buildings != null && buildings.Count > 0)
                     {
@@ -42,7 +47,11 @@ namespace api.Data
                 {
                     var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "requesters.json");
                     var json = await File.ReadAllTextAsync(jsonPath);
-                    var requesters = System.Text.Json.JsonSerializer.Deserialize<List<Requester>>(json);
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+                    var requesters = JsonSerializer.Deserialize<List<Requester>>(json, options);
 
                     if (requesters != null && requesters.Count > 0)
                     {
@@ -60,7 +69,11 @@ namespace api.Data
                 {
                     var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "parkingspots.json");
                     var json = await File.ReadAllTextAsync(jsonPath);
-                    var parkingSpots = System.Text.Json.JsonSerializer.Deserialize<List<ParkingSpot>>(json);
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+                    var parkingSpots = JsonSerializer.Deserialize<List<ParkingSpot>>(json, options);
 
                     if (parkingSpots != null && parkingSpots.Count > 0)
                     {
@@ -78,7 +91,11 @@ namespace api.Data
                 {
                     var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "requestereligibilities.json");
                     var json = await File.ReadAllTextAsync(jsonPath);
-                    var requesterEligibilities = System.Text.Json.JsonSerializer.Deserialize<List<RequesterEligibility>>(json);
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+                    var requesterEligibilities = JsonSerializer.Deserialize<List<RequesterEligibility>>(json, options);
 
                     if (requesterEligibilities != null && requesterEligibilities.Count > 0)
                     {
@@ -96,7 +113,11 @@ namespace api.Data
                 {
                     var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "Data", "parkingreservations.json");
                     var json = await File.ReadAllTextAsync(jsonPath);
-                    var parkingReservations = System.Text.Json.JsonSerializer.Deserialize<List<ParkingReservation>>(json);
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    };
+                    var parkingReservations = JsonSerializer.Deserialize<List<ParkingReservation>>(json);
 
                     if (parkingReservations != null && parkingReservations.Count > 0)
                     {
