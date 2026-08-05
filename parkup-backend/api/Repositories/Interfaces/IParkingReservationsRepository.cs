@@ -4,6 +4,7 @@ public interface IParkingReservationsRepository
     Task<IReadOnlyList<ParkingReservation>> ListReservationsByParkingSpotIdAsync(int parkingSpotId);
     Task<bool> ParkingSpotExistsAsync(int parkingSpotId);
     Task<bool> RequesterExistsAsync(int requesterId);
+    Task<bool> IsRequesterEligibleForParkingSpotAsync(int requesterId, int parkingSpotId);
     Task<bool> HasActiveReservationAsync(int parkingSpotId, DateTime startingDate, DateTime endingDate);
     Task<ParkingReservation> CreateReservationAsync(ParkingReservation reservation);
     Task<bool> CancelReservationAsync(int id);
