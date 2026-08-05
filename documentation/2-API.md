@@ -65,6 +65,23 @@ DELETE /api/requesters/{id}
 
 Sikeres törlés: `204 No Content`. Foglalással rendelkező requester nem törölhető, ilyenkor `409 Conflict` válasz érkezik.
 
+### Requester eligibility beallitasa
+
+```http
+PUT /api/requesters/{id}/eligibility
+Content-Type: application/json
+```
+
+Disabled jogosultsag beallitasa (`eligibilityTypeId: 1`):
+
+```json
+{
+  "eligibilityTypeId": 1
+}
+```
+
+Az endpoint idempotens: ugyanaz a jogosultsag tobbszori beallitasa nem hoz letre duplikalt rekordot.
+
 ## Parking spotok
 
 ```http

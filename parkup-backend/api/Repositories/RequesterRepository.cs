@@ -23,6 +23,29 @@ public class RequesterRepository : IRequesterRepository
         return _context.Requesters.FirstOrDefaultAsync(requester => requester.Id == id);
     }
 
+    public Task<bool> RequesterExistsAsync(int id)
+    {
+        return _context.Requesters.AnyAsync(requester => requester.Id == id);
+    }
+
+    public Task<bool> EligibilityTypeExistsAsync(int id)
+    {
+        return _context.EligibilityTypes.AnyAsync(eligibilityType => eligibilityType.Id == id);
+    }
+
+    public Task<RequesterEligibility?> GetRequesterEligibilityAsync(int requesterId, int eligibilityTypeId)
+    {
+        return _context.RequesterEligibilities.FirstOrDefaultAsync(eligibility =>
+            eligibility.RequesterId == requesterId && eligibility.EligibilityTypeId == eligibilityTypeId);
+    }
+
+    public async Task<RequesterEligibility> AddRequesterEligibilityAsync(RequesterEligibility eligibility)
+    {
+        _context.RequesterEligibilities.Add(eligibility);
+        await _context.SaveChangesAsync();
+        return eligibility;
+    }
+
     public Task<bool> EmailExistsAsync(string email)
     {
         var normalizedEmail = email.ToLower();
