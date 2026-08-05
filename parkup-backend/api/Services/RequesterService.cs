@@ -42,6 +42,43 @@ public class RequesterService : IRequesterService
         return MapToDto(requester);
     }
 
+    public async Task<RequesterEligibilityDto?> SetEligibilityAsync(
+        int requesterId,
+        SetRequesterEligibilityDto request)
+    {
+        if (requesterId <= 0 || request.EligibilityTypeId <= 0)
+        {
+            throw new ArgumentException("Requester and eligibility type IDs must be positive.");
+        }
+
+        if (!await _requesterRepository.RequesterExistsAsync(requesterId))
+        {
+            return null;
+        }
+
+        if (!await _requesterRepository.EligibilityTypeExistsAsync(request.EligibilityTypeId))
+        {
+            throw new EligibilityTypeNotFoundException();
+        }
+
+        var existingEligibility = await _requesterRepository.GetRequesterEligibilityAsync(
+            requesterId,
+            request.EligibilityTypeId);
+
+        var eligibility = existingEligibility ?? await _requesterRepository.AddRequesterEligibilityAsync(
+            new RequesterEligibility
+            {
+                RequesterId = requesterId,
+                EligibilityTypeId = request.EligibilityTypeId
+            });
+
+        return new RequesterEligibilityDto
+        {
+            RequesterId = eligibility.RequesterId,
+            EligibilityTypeId = eligibility.EligibilityTypeId
+        };
+    }
+
     public async Task<RequesterDto?> PatchRequesterAsync(int id, PatchRequesterDto request)
     {
         if (id <= 0)
@@ -129,6 +166,14 @@ public sealed class RequesterHasReservationsException : Exception
 {
     public RequesterHasReservationsException()
         : base("The requester cannot be deleted because reservations belong to this requester.")
+    {
+    }
+}
+
+public sealed class EligibilityTypeNotFoundException : Exception
+{
+    public EligibilityTypeNotFoundException()
+        : base("The eligibility type was not found.")
     {
     }
 }

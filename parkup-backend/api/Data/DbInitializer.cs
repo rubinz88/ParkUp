@@ -142,6 +142,7 @@ namespace api.Data
                     if (changesMade)
                     {
                         await context.SaveChangesAsync();
+                        await SynchronizeIdentitySequencesAsync(context);
                         logger.LogInformation("Database seeded");
                     }
                 }

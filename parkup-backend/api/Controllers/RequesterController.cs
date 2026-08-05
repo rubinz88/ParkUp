@@ -35,6 +35,26 @@ public class RequesterController : ControllerBase
         }
     }
 
+    [HttpPut("{id:int}/eligibility")]
+    public async Task<ActionResult<RequesterEligibilityDto>> SetEligibility(
+        int id,
+        SetRequesterEligibilityDto request)
+    {
+        try
+        {
+            var eligibility = await _requesterService.SetEligibilityAsync(id, request);
+            return eligibility == null ? NotFound() : Ok(eligibility);
+        }
+        catch (ArgumentException exception)
+        {
+            return BadRequest(new { message = exception.Message });
+        }
+        catch (EligibilityTypeNotFoundException exception)
+        {
+            return NotFound(new { message = exception.Message });
+        }
+    }
+
     [HttpPatch("{id:int}")]
     public async Task<ActionResult<RequesterDto>> PatchRequester(int id, PatchRequesterDto request)
     {

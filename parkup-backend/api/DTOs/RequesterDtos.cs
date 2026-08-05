@@ -24,3 +24,15 @@ public sealed class PatchRequesterDto
     [EmailAddress]
     public string? Email { get; set; }
 }
+
+public sealed class SetRequesterEligibilityDto
+{
+    [Range(1, 3)]
+    public int EligibilityTypeId { get; set; }
+}
+
+public sealed class RequesterEligibilityDto
+{
+    public int RequesterId { get; set; }
+    public int EligibilityTypeId { get; set; }
+}
