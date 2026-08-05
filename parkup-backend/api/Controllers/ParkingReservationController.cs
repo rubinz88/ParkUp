@@ -28,6 +28,10 @@ public class ParkingReservationController : ControllerBase
         {
             return NotFound(new { message = exception.Message });
         }
+        catch (ReservationEligibilityException exception)
+        {
+            return StatusCode(StatusCodes.Status403Forbidden, new { message = exception.Message });
+        }
         catch (InvalidOperationException exception)
         {
             return Conflict(new { message = exception.Message });

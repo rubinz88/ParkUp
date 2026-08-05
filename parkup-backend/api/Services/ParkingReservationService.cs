@@ -38,6 +38,13 @@ public class ParkingReservationService : IParkingReservationService
             throw new KeyNotFoundException("Requester was not found.");
         }
 
+        if (!await _reservationRepository.IsRequesterEligibleForParkingSpotAsync(
+                request.RequesterId,
+                request.ParkingSpotId))
+        {
+            throw new ReservationEligibilityException();
+        }
+
         if (await _reservationRepository.HasActiveReservationAsync(
                 request.ParkingSpotId,
                 startingDate,
@@ -111,5 +118,13 @@ public class ParkingReservationService : IParkingReservationService
             StartingDate = reservation.StartingDate,
             EndingDate = reservation.EndingDate
         };
+    }
+}
+
+public sealed class ReservationEligibilityException : Exception
+{
+    public ReservationEligibilityException()
+        : base("The requester is not eligible to reserve this parking spot.")
+    {
     }
 }

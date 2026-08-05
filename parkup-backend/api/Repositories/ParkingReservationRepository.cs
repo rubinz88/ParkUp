@@ -36,6 +36,17 @@ public class ParkingReservationRepository : IParkingReservationsRepository
         return await _context.Requesters.AnyAsync(requester => requester.Id == requesterId);
     }
 
+    public async Task<bool> IsRequesterEligibleForParkingSpotAsync(int requesterId, int parkingSpotId)
+    {
+        return await _context.ParkingSpots
+            .Where(spot => spot.Id == parkingSpotId)
+            .Select(spot => spot.EligibilityTypeId == null ||
+                _context.RequesterEligibilities.Any(eligibility =>
+                    eligibility.RequesterId == requesterId &&
+                    eligibility.EligibilityTypeId == spot.EligibilityTypeId))
+            .SingleOrDefaultAsync();
+    }
+
     public async Task<bool> HasActiveReservationAsync(
         int parkingSpotId,
         DateTime startingDate,
