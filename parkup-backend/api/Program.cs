@@ -11,6 +11,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<IParkingSpotRepository, ParkingSpotRepository>();
 builder.Services.AddScoped<IParkingSpotService, ParkingSpotService>();
+builder.Services.AddScoped<IParkingReservationsRepository, ParkingReservationRepository>();
+builder.Services.AddScoped<IParkingReservationService, ParkingReservationService>();
 
 var host = builder.Configuration["DB_HOST"];
 var port = builder.Configuration["DB_PORT"];

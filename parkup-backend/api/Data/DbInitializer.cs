@@ -19,6 +19,7 @@ namespace api.Data
             try
             {
                 await context.Database.MigrateAsync();
+                await SynchronizeIdentitySequencesAsync(context);
 
                 // Saving buildings
                 if (!context.Buildings.Any())
@@ -147,6 +148,26 @@ namespace api.Data
             } catch (Exception ex)
             {
                 logger.LogError("Error while seeding database " + ex);
+            }
+        }
+
+        private static async Task SynchronizeIdentitySequencesAsync(ParkUpDbContext context)
+        {
+            var tables = new[]
+            {
+                "Buildings",
+                "EligibilityTypes",
+                "ParkingReservations",
+                "ParkingSpots",
+                "Requesters",
+                "RequesterEligibilities",
+                "Statuses"
+            };
+
+            foreach (var table in tables)
+            {
+                var sql = $"SELECT setval(pg_get_serial_sequence('\"{table}\"', 'Id'), COALESCE(MAX(\"Id\"), 1), MAX(\"Id\") IS NOT NULL) FROM \"{table}\";";
+                await context.Database.ExecuteSqlRawAsync(sql);
             }
         }
     }
